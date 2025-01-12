@@ -54,6 +54,68 @@ const Home = () => {
           ))}
         </div>
       </section>
+
+      {/* How It Works Section */}
+      <section className="how-it-works">
+        <h2>How It Works</h2>
+        <div className="features-grid">
+          <div className="feature">
+            <div className="feature-icon">1</div>
+            <h3>Create Your Event</h3>
+            <p>Set up your event page with all the details in minutes.</p>
+          </div>
+          <div className="feature">
+            <div className="feature-icon">2</div>
+            <h3>Share With Community</h3>
+            <p>Reach your audience through our community networks.</p>
+          </div>
+          <div className="feature">
+            <div className="feature-icon">3</div>
+            <h3>Manage Registrations</h3>
+            <p>Handle tickets and communicate with attendees easily.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="cta">
+        <h2>Ready to host your event?</h2>
+        <p>Join thousands of organizers who trust our platform</p>
+        <button className="btn-primary">Get Started Free</button>
+      </section>
+
+      {/* Footer */}
+      <footer className="footer">
+        <div className="footer-content">
+          <div className="footer-brand">
+            <h3>EventPlatform</h3>
+            <p>Where communities thrive</p>
+          </div>
+          <div className="footer-links">
+            <div>
+              <h4>Product</h4>
+              <a href="#features">Features</a>
+              <a href="#pricing">Pricing</a>
+              <a href="#enterprise">Enterprise</a>
+            </div>
+            <div>
+              <h4>Company</h4>
+              <a href="#about">About</a>
+              <a href="#careers">Careers</a>
+              <a href="#contact">Contact</a>
+            </div>
+            <div>
+              <h4>Resources</h4>
+              <a href="#blog">Blog</a>
+              <a href="#help">Help Center</a>
+              <a href="#guides">Guides</a>
+            </div>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <p>© 2025 EventPlatform. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 };
