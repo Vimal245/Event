@@ -27,7 +27,7 @@ const Home = () => {
           <button className="btn-primary">Create your event</button>
         </div>
         <div className="hero-image">
-          <img src="/api/placeholder/600/400" alt="Events illustration" />
+          <img src="https://img.freepik.com/free-vector/people-watching-news-indoors_23-2148562906.jpg?t=st=1736680882~exp=1736684482~hmac=fcd293212afe472e921cc73ed484987fb173d38a9097b26360584285f177c2c7&w=1060" alt="Events illustration" />
         </div>
       </section>
 
@@ -38,7 +38,7 @@ const Home = () => {
           {[1, 2, 3].map((item) => (
             <div key={item} className="event-card">
               <div className="event-image">
-                <img src={`/api/placeholder/400/200`} alt={`Event ${item}`} />
+                <img src={`https://img.freepik.com/free-vector/people-watching-news-indoors_23-2148562906.jpg?t=st=1736680882~exp=1736684482~hmac=fcd293212afe472e921cc73ed484987fb173d38a9097b26360584285f177c2c7&w=1060`} alt={`Event ${item}`} />
                 <span className="event-category">Tech</span>
               </div>
               <div className="event-details">
