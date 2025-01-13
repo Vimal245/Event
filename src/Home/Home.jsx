@@ -96,7 +96,7 @@ const Home = () => {
             <div>
               <h4>Product</h4>
               <a href="#features">Features</a>
-              <a href="#pricing">Pricing</a>
+              <Link to="/pricing">Pricing</Link>
               <a href="#enterprise">Enterprise</a>
             </div>
             <div>
