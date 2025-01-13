@@ -1,0 +1,116 @@
+.pricingCard {
+    border-radius: 4px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 auto;
+    padding: 36px 9px 12px 24px;
+    font: 500 14px Roboto, sans-serif;
+    border: 1px solid rgba(219, 219, 219, 1);
+  }
+  
+  .pricingCardDark {
+    background-color: rgba(44, 49, 64, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 36px 9px 12px 24px;
+  }
+  
+  .pricingCardLight {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(116, 116, 116, 1);
+  }
+  
+  .planName {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    align-self: center;
+    font: 700 24px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .planPrice {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    align-self: center;
+    margin-top: 12px;
+    font: 800 64px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .planInterval {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    align-self: center;
+    margin-top: 5px;
+    color: rgba(221, 221, 221, 1);
+  }
+  
+  .actionButton {
+    border-radius: 3px;
+    align-self: center;
+    margin-top: 23px;
+    width: 223px;
+    max-width: 100%;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 18px 65px;
+    cursor: pointer;
+  }
+  
+  .lightButton {
+    color: rgba(79, 70, 229, 1);
+    border: 3px solid rgba(79, 70, 229, 1);
+    background: transparent;
+  }
+  
+  .darkButton {
+    background-color: rgba(79, 70, 229, 1);
+    border: 3px solid rgba(79, 70, 229, 1);
+    color: white;
+  }
+  
+  .divider {
+    align-self: center;
+    margin-top: 26px;
+    width: 100px;
+    height: 1px;
+    border: 1px solid rgba(221, 221, 221, 1);
+  }
+  
+  .featureList {
+    margin-top: 24px;
+    width: 100%;
+  }
+  
+  .featureItem {
+    display: flex;
+    gap: 11px;
+    margin-top: 14px;
+    align-items: flex-start;
+  }
+  
+  .featureIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .planPrice {
+      font-size: 40px;
+    }
+    
+    .actionButton {
+      padding: 0 20px;
+    }
+    
+    .pricingCard {
+      margin-top: 40px;
+      padding-left: 20px;
+    }
+    
+    .pricingCardDark {
+      padding: 0 0 100px 20px;
+    }
+  }

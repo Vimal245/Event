@@ -1,0 +1,134 @@
+.pricingContainer {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .pricingContent {
+    display: flex;
+    width: 650px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  .title {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    align-self: center;
+    font: 700 40px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .subtitle {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    align-self: center;
+    margin-top: 28px;
+    font: 250 24px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .cardsContainer {
+    margin-top: 62px;
+  }
+  
+  .cardsGrid {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .footnote {
+    color: rgba(89, 89, 89, 1);
+    align-self: start;
+    margin-top: 18px;
+    font: 500 14px Roboto, sans-serif;
+  }
+
+  .footer {
+    background-color: #111827;
+    color: white;
+    padding: 4rem 5% 2rem;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 4rem;
+    margin-bottom: 3rem;
+  }
+  
+  .footer-brand h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-brand p {
+    color: #9ca3af;
+  }
+  
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .footer-links a {
+    display: block;
+    color: #9ca3af;
+    text-decoration: none;
+    margin-bottom: 0.75rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: white;
+  }
+  
+  .footer-bottom {
+    padding-top: 2rem;
+    border-top: 1px solid #374151;
+    text-align: center;
+    color: #9ca3af;
+  }
+  
+  @media (max-width: 991px) {
+    .pricingContainer {
+      padding: 0 20px 100px;
+    }
+    
+    .subtitle {
+      max-width: 100%;
+    }
+    
+    .cardsContainer {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+    
+    .cardsGrid {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+    
+    .footnote {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    
+    .footer-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    
+    .footer-links {
+      grid-template-columns: 1fr;
+    }
+  }

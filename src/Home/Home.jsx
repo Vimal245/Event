@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Spline from '@splinetool/react-spline';
 import './Home.css';
 
@@ -11,7 +12,7 @@ const Home = () => {
         <div className="nav-links">
           <a href="#events">Events</a>
           <a href="#communities">Communities</a>
-          <a href="#pricing">Pricing</a>
+          <Link to="/pricing">Pricing</Link>
         </div>
         <div className="nav-auth">
           <button className="btn-secondary">Log in</button>
